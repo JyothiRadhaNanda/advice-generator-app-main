@@ -14,9 +14,9 @@ function fetchQuotes() {
     })
     .then((data) => {
       console.log(data.slip.id);
-      advice.innerHTML = `Advice # ${data.slip.id}`;
+      advice.innerHTML = `A D V I C E #${data.slip.id}`;
       console.log(data.slip.advice);
-      quotes.innerHTML = `<p>" ${data.slip.advice} " </p>`;
+      quotes.innerHTML = `<p>"${data.slip.advice}" </p>`;
     })
     .catch((error) => {
       console.error("Error fetching data", error);
