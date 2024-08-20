@@ -65,8 +65,8 @@ body {
   }
 }
 
-// @media screen and (min-width: 720px) {
-//   .jir {
-//     background-image: url(./images/pattern-divider-desktop.svg);
-//   }
-// }
+@media screen and (min-width: 720px) {
+  .container {
+    max-width: 30%;
+  }
+}
